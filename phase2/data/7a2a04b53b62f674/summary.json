@@ -1,0 +1,955 @@
+{
+  "config": {
+    "steps": 8000,
+    "burn": 500,
+    "replicas": 3,
+    "omega": 1.0,
+    "P": 4,
+    "betas": [
+      0.1,
+      0.16681005372000587,
+      0.2782559402207124,
+      0.46415888336127786,
+      0.774263682681127,
+      1.291549665014884,
+      2.1544346900318834,
+      3.593813663804626,
+      5.994842503189409,
+      10.0
+    ],
+    "seed0": 20261108
+  },
+  "fingerprint": "7a2a04b53b62f674",
+  "rows": [
+    {
+      "beta": 0.1,
+      "f": 0.04641666666666666,
+      "error": 0.0019884045631711634,
+      "exact": 0.04758129098202021,
+      "valid": true,
+      "seeds_consistent": true,
+      "replica_means": [
+        0.044125,
+        0.048375,
+        0.04675
+      ],
+      "diagnostics": [
+        {
+          "valid": true,
+          "sector_changes": 458,
+          "block_errors": {
+            "16": 0.003038718705761606,
+            "64": 0.00321965517338175,
+            "256": 0.0031965673882556516
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.05725,
+            "cycle_shift": 0.9402441362561513,
+            "sector_changes": 458
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.068,
+            "cycle_shift": 0.9437052200614124,
+            "sector_changes": 34
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 482,
+          "block_errors": {
+            "16": 0.0035023029569133516,
+            "64": 0.003542761532222222,
+            "256": 0.0032841160286047086
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.06025,
+            "cycle_shift": 0.9381284826746942,
+            "sector_changes": 482
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.068,
+            "cycle_shift": 0.9518935516888434,
+            "sector_changes": 34
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 459,
+          "block_errors": {
+            "16": 0.0033673510518228457,
+            "64": 0.0034393140374771093,
+            "256": 0.0035589936290869816
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.0575,
+            "cycle_shift": 0.9411237680788429,
+            "sector_changes": 460
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.052,
+            "cycle_shift": 0.9456967213114754,
+            "sector_changes": 26
+          }
+        }
+      ],
+      "energy": [
+        19.592129910263186,
+        0.2876753162186094
+      ],
+      "virial": [
+        19.66659355451952,
+        0.18539865124908775
+      ],
+      "energy_exact": 19.541643077714
+    },
+    {
+      "beta": 0.16681005372000587,
+      "f": 0.07479166666666667,
+      "error": 0.0038231295353995587,
+      "exact": 0.07681982046413599,
+      "valid": true,
+      "seeds_consistent": true,
+      "replica_means": [
+        0.073,
+        0.082125,
+        0.06925
+      ],
+      "diagnostics": [
+        {
+          "valid": true,
+          "sector_changes": 730,
+          "block_errors": {
+            "16": 0.003912814874292031,
+            "64": 0.004386419428557397,
+            "256": 0.0042909400231030785
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.09125,
+            "cycle_shift": 0.9210560456668396,
+            "sector_changes": 730
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.108,
+            "cycle_shift": 0.8968421052631579,
+            "sector_changes": 54
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 815,
+          "block_errors": {
+            "16": 0.004156910337872857,
+            "64": 0.004350826070989278,
+            "256": 0.004050984531403313
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.102,
+            "cycle_shift": 0.9234830215733559,
+            "sector_changes": 816
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.072,
+            "cycle_shift": 0.9129098360655737,
+            "sector_changes": 36
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 710,
+          "block_errors": {
+            "16": 0.0038161500235189927,
+            "64": 0.00392620307224628,
+            "256": 0.003973285576335429
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.08875,
+            "cycle_shift": 0.920238249384954,
+            "sector_changes": 710
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.12,
+            "cycle_shift": 0.9232386961093586,
+            "sector_changes": 60
+          }
+        }
+      ],
+      "energy": [
+        11.584395449984754,
+        0.061620473145482746
+      ],
+      "virial": [
+        11.562843312092923,
+        0.08010456627680027
+      ],
+      "energy_exact": 11.559079879486234
+    },
+    {
+      "beta": 0.2782559402207124,
+      "f": 0.12341666666666666,
+      "error": 0.0030731718941524665,
+      "exact": 0.12144848819995463,
+      "valid": true,
+      "seeds_consistent": true,
+      "replica_means": [
+        0.119125,
+        0.126,
+        0.125125
+      ],
+      "diagnostics": [
+        {
+          "valid": true,
+          "sector_changes": 1183,
+          "block_errors": {
+            "16": 0.004958782390425211,
+            "64": 0.0049304129415489685,
+            "256": 0.005445142700120033
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.147875,
+            "cycle_shift": 0.8994550770866561,
+            "sector_changes": 1183
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.136,
+            "cycle_shift": 0.8842105263157894,
+            "sector_changes": 68
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 1232,
+          "block_errors": {
+            "16": 0.004913250457703152,
+            "64": 0.004814293235235958,
+            "256": 0.0043301084400515655
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.154,
+            "cycle_shift": 0.8968783351120597,
+            "sector_changes": 1232
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.128,
+            "cycle_shift": 0.9029227557411273,
+            "sector_changes": 64
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 1216,
+          "block_errors": {
+            "16": 0.005202858177620534,
+            "64": 0.005130283468556287,
+            "256": 0.005586578589287652
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.152125,
+            "cycle_shift": 0.8955860781437525,
+            "sector_changes": 1217
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.142,
+            "cycle_shift": 0.9058823529411765,
+            "sector_changes": 71
+          }
+        }
+      ],
+      "energy": [
+        6.787531466251035,
+        0.050879349137155444
+      ],
+      "virial": [
+        6.79332540651964,
+        0.042706413181801815
+      ],
+      "energy_exact": 6.803062174598473
+    },
+    {
+      "beta": 0.46415888336127786,
+      "f": 0.18329166666666666,
+      "error": 0.0038732074707032065,
+      "exact": 0.1856681688320377,
+      "valid": true,
+      "seeds_consistent": true,
+      "replica_means": [
+        0.17775,
+        0.181375,
+        0.19075
+      ],
+      "diagnostics": [
+        {
+          "valid": true,
+          "sector_changes": 1758,
+          "block_errors": {
+            "16": 0.005326031188083005,
+            "64": 0.0051307992366152475,
+            "256": 0.004754140273928618
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.21975,
+            "cycle_shift": 0.8673343394155577,
+            "sector_changes": 1758
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.196,
+            "cycle_shift": 0.8557377049180328,
+            "sector_changes": 98
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 1771,
+          "block_errors": {
+            "16": 0.005379216084278706,
+            "64": 0.004870086440247634,
+            "256": 0.00568192518912534
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.221375,
+            "cycle_shift": 0.86659793814433,
+            "sector_changes": 1771
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.224,
+            "cycle_shift": 0.8726877040261154,
+            "sector_changes": 112
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 1822,
+          "block_errors": {
+            "16": 0.005486490513644639,
+            "64": 0.005568420643929653,
+            "256": 0.0067524334590587905
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.22775,
+            "cycle_shift": 0.8694210308138731,
+            "sector_changes": 1822
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.212,
+            "cycle_shift": 0.8840262582056893,
+            "sector_changes": 106
+          }
+        }
+      ],
+      "energy": [
+        4.04503856006376,
+        0.03320512015311862
+      ],
+      "virial": [
+        4.013059985761729,
+        0.04414877914821915
+      ],
+      "energy_exact": 3.9999531475931605
+    },
+    {
+      "beta": 0.774263682681127,
+      "f": 0.279125,
+      "error": 0.006567359312031997,
+      "exact": 0.26947843495461976,
+      "valid": true,
+      "seeds_consistent": true,
+      "replica_means": [
+        0.2805,
+        0.28975,
+        0.267125
+      ],
+      "diagnostics": [
+        {
+          "valid": true,
+          "sector_changes": 2819,
+          "block_errors": {
+            "16": 0.005636091825203369,
+            "64": 0.005350775305595231,
+            "256": 0.005196056789739776
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.3525,
+            "cycle_shift": 0.8248037220122129,
+            "sector_changes": 2820
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.366,
+            "cycle_shift": 0.8189252336448598,
+            "sector_changes": 183
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 2765,
+          "block_errors": {
+            "16": 0.00572542014805407,
+            "64": 0.005738944491016422,
+            "256": 0.005522451081786428
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.34575,
+            "cycle_shift": 0.8342347609998538,
+            "sector_changes": 2766
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.332,
+            "cycle_shift": 0.8136574074074074,
+            "sector_changes": 166
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 2670,
+          "block_errors": {
+            "16": 0.0054905040770443,
+            "64": 0.005148451458385796,
+            "256": 0.005036015464823855
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.33375,
+            "cycle_shift": 0.826805164827238,
+            "sector_changes": 2670
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.348,
+            "cycle_shift": 0.8188073394495413,
+            "sector_changes": 174
+          }
+        }
+      ],
+      "energy": [
+        2.4009997691429645,
+        0.015404872369764074
+      ],
+      "virial": [
+        2.3730164355105163,
+        0.01569071230624298
+      ],
+      "energy_exact": 2.395314569789142
+    },
+    {
+      "beta": 1.291549665014884,
+      "f": 0.3662083333333333,
+      "error": 0.0030978277588735136,
+      "exact": 0.3625777320284874,
+      "valid": true,
+      "seeds_consistent": true,
+      "replica_means": [
+        0.36825,
+        0.36125,
+        0.369125
+      ],
+      "diagnostics": [
+        {
+          "valid": true,
+          "sector_changes": 3746,
+          "block_errors": {
+            "16": 0.005384990366053125,
+            "64": 0.005154297650911669,
+            "256": 0.004819595704331273
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.468375,
+            "cycle_shift": 0.7765607047108387,
+            "sector_changes": 3747
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.44,
+            "cycle_shift": 0.7708830548926014,
+            "sector_changes": 220
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 3708,
+          "block_errors": {
+            "16": 0.005407666846380506,
+            "64": 0.005352964960745376,
+            "256": 0.004860602180932522
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.463625,
+            "cycle_shift": 0.7775913355197925,
+            "sector_changes": 3709
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.444,
+            "cycle_shift": 0.7672727272727272,
+            "sector_changes": 222
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 3728,
+          "block_errors": {
+            "16": 0.005303569500713439,
+            "64": 0.004939987633848959,
+            "256": 0.005170017370638914
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.466125,
+            "cycle_shift": 0.7783995094281773,
+            "sector_changes": 3729
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.462,
+            "cycle_shift": 0.7637698898408812,
+            "sector_changes": 231
+          }
+        }
+      ],
+      "energy": [
+        1.533905134352535,
+        0.016304308001174356
+      ],
+      "virial": [
+        1.546960255642592,
+        0.008971270205633148
+      ],
+      "energy_exact": 1.5424386471396545
+    },
+    {
+      "beta": 2.1544346900318834,
+      "f": 0.4419583333333333,
+      "error": 0.002841867986354621,
+      "exact": 0.4420156348173695,
+      "valid": true,
+      "seeds_consistent": true,
+      "replica_means": [
+        0.443125,
+        0.437125,
+        0.445625
+      ],
+      "diagnostics": [
+        {
+          "valid": true,
+          "sector_changes": 4789,
+          "block_errors": {
+            "16": 0.0045304131198017844,
+            "64": 0.0045611326939273425,
+            "256": 0.0047295847531030255
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.59875,
+            "cycle_shift": 0.7120835006021679,
+            "sector_changes": 4790
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.574,
+            "cycle_shift": 0.7220812182741116,
+            "sector_changes": 287
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 4816,
+          "block_errors": {
+            "16": 0.004561464421140503,
+            "64": 0.004734189519149588,
+            "256": 0.0055637947317561595
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.602,
+            "cycle_shift": 0.7155082780132768,
+            "sector_changes": 4816
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.56,
+            "cycle_shift": 0.7262357414448669,
+            "sector_changes": 280
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 4797,
+          "block_errors": {
+            "16": 0.0043318441219639915,
+            "64": 0.004400129442744068,
+            "256": 0.004373889788090255
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.59975,
+            "cycle_shift": 0.7191797346200242,
+            "sector_changes": 4798
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.596,
+            "cycle_shift": 0.7131882202304738,
+            "sector_changes": 298
+          }
+        }
+      ],
+      "energy": [
+        1.1620838066768362,
+        0.005981721151884157
+      ],
+      "virial": [
+        1.1654893017384673,
+        0.00595683680643946
+      ],
+      "energy_exact": 1.1584458678992604
+    },
+    {
+      "beta": 3.593813663804626,
+      "f": 0.48537499999999995,
+      "error": 0.002048459460246532,
+      "exact": 0.4862533599449721,
+      "valid": true,
+      "seeds_consistent": true,
+      "replica_means": [
+        0.483375,
+        0.484625,
+        0.488125
+      ],
+      "diagnostics": [
+        {
+          "valid": true,
+          "sector_changes": 5892,
+          "block_errors": {
+            "16": 0.003480239630509879,
+            "64": 0.0031034742498295092,
+            "256": 0.003252375306395288
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.736625,
+            "cycle_shift": 0.6463072865150017,
+            "sector_changes": 5893
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.742,
+            "cycle_shift": 0.6376811594202898,
+            "sector_changes": 371
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 5835,
+          "block_errors": {
+            "16": 0.003373143926650595,
+            "64": 0.0034734375113367575,
+            "256": 0.0035238728427900382
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.7295,
+            "cycle_shift": 0.646292171904644,
+            "sector_changes": 5836
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.75,
+            "cycle_shift": 0.6317169069462647,
+            "sector_changes": 375
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 5972,
+          "block_errors": {
+            "16": 0.00338289546297648,
+            "64": 0.0034020347919747162,
+            "256": 0.003638121458189232
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.746625,
+            "cycle_shift": 0.6465773809523809,
+            "sector_changes": 5973
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.72,
+            "cycle_shift": 0.6435124508519003,
+            "sector_changes": 360
+          }
+        }
+      ],
+      "energy": [
+        1.0301409710849856,
+        0.004040963399838192
+      ],
+      "virial": [
+        1.0273604026407994,
+        0.007769385159229968
+      ],
+      "energy_exact": 1.0297834343031553
+    },
+    {
+      "beta": 5.994842503189409,
+      "f": 0.49933333333333335,
+      "error": 0.001595946567183304,
+      "exact": 0.49875421532150804,
+      "valid": true,
+      "seeds_consistent": true,
+      "replica_means": [
+        0.50025,
+        0.500625,
+        0.497125
+      ],
+      "diagnostics": [
+        {
+          "valid": true,
+          "sector_changes": 6808,
+          "block_errors": {
+            "16": 0.0024836388473060437,
+            "64": 0.002584167832610098,
+            "256": 0.003033105986938914
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.851125,
+            "cycle_shift": 0.5868822401866822,
+            "sector_changes": 6809
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.848,
+            "cycle_shift": 0.5852348993288591,
+            "sector_changes": 424
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 6896,
+          "block_errors": {
+            "16": 0.002344052669167581,
+            "64": 0.0023970748302744914,
+            "256": 0.002737402550049122
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.862125,
+            "cycle_shift": 0.5845281760586862,
+            "sector_changes": 6897
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.848,
+            "cycle_shift": 0.5986666666666667,
+            "sector_changes": 424
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 6865,
+          "block_errors": {
+            "16": 0.002496057763497759,
+            "64": 0.002363885282544874,
+            "256": 0.0019472221544437356
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.85825,
+            "cycle_shift": 0.5941944606171504,
+            "sector_changes": 6866
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.84,
+            "cycle_shift": 0.595460614152203,
+            "sector_changes": 420
+          }
+        }
+      ],
+      "energy": [
+        1.0044839236870733,
+        0.0011425008423558906
+      ],
+      "virial": [
+        1.0021992709988152,
+        0.0035071874560504146
+      ],
+      "energy_exact": 1.0025102086252957
+    },
+    {
+      "beta": 10.0,
+      "f": 0.5000833333333333,
+      "error": 0.0009380180228427976,
+      "exact": 0.49997730003511875,
+      "valid": true,
+      "seeds_consistent": true,
+      "replica_means": [
+        0.50025,
+        0.500875,
+        0.499125
+      ],
+      "diagnostics": [
+        {
+          "valid": true,
+          "sector_changes": 7583,
+          "block_errors": {
+            "16": 0.0015826827760290682,
+            "64": 0.0014526290126481353,
+            "256": 0.0012216935124537123
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.948,
+            "cycle_shift": 0.534672445407568,
+            "sector_changes": 7584
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.958,
+            "cycle_shift": 0.5366178428761651,
+            "sector_changes": 479
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 7557,
+          "block_errors": {
+            "16": 0.0016547871134322874,
+            "64": 0.0014560946719044021,
+            "256": 0.001315160441820615
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.94475,
+            "cycle_shift": 0.5415659134495122,
+            "sector_changes": 7558
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.924,
+            "cycle_shift": 0.5394912985274432,
+            "sector_changes": 462
+          }
+        },
+        {
+          "valid": true,
+          "sector_changes": 7586,
+          "block_errors": {
+            "16": 0.0016357552201599604,
+            "64": 0.0013668195069269859,
+            "256": 0.0015124467560925048
+          },
+          "block_stable": true,
+          "reason": "ok",
+          "acceptance": {
+            "bead": 1.0,
+            "perm": 0.948375,
+            "cycle_shift": 0.543728135932034,
+            "sector_changes": 7587
+          },
+          "burn_acceptance": {
+            "bead": 1.0,
+            "perm": 0.926,
+            "cycle_shift": 0.5580774365821095,
+            "sector_changes": 463
+          }
+        }
+      ],
+      "energy": [
+        1.0007806369367944,
+        0.0004334322944536
+      ],
+      "virial": [
+        0.9966263407233461,
+        0.0031149787436810547
+      ],
+      "energy_exact": 1.0000454055969499
+    }
+  ]
+}

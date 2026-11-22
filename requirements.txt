@@ -1,0 +1,6 @@
+# Direct dependencies verified with Python 3.14.0 on Fedora (2026-11-22).
+numpy==2.3.5
+scipy==1.16.2
+matplotlib==3.10.6
+seaborn==0.13.2
+pytest==9.2.0

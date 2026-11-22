@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code or the accompanying data, cite this repository version."
+title: "Bosones idénticos y ciclos de intercambio: PIMC code and data"
+type: software
+authors:
+  - family-names: Guzmán
+    given-names: Camilo
+  - family-names: Sabogal
+    given-names: Santiago
+  - family-names: Barrios
+    given-names: Milena
+version: 1.0.0
+date-released: 2026-11-22
+repository-code: "https://github.com/SantiagoSabogall/bosones-identicos-pimc"
+url: "https://github.com/SantiagoSabogall/bosones-identicos-pimc/tree/v1.0.0"
